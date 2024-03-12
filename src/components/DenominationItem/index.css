@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+  width: 48%;
+  margin-bottom: 16px;
+}
+
+.value-button {
+  background-color: #382f5a;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  color: #d4d2db;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .value-button {
+    font-size: 24px;
+  }
+}
